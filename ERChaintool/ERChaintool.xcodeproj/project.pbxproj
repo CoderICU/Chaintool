@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14A436411F60146500A8B8DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A436401F60146500A8B8DE /* main.m */; };
+		14A436441F60146500A8B8DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A436431F60146500A8B8DE /* AppDelegate.m */; };
+		14A436471F60146500A8B8DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A436461F60146500A8B8DE /* ViewController.m */; };
+		14A4364A1F60146500A8B8DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A436481F60146500A8B8DE /* Main.storyboard */; };
+		14A4364C1F60146500A8B8DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A4364B1F60146500A8B8DE /* Assets.xcassets */; };
+		14A4364F1F60146500A8B8DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A4364D1F60146500A8B8DE /* LaunchScreen.storyboard */; };
+		14A4365A1F60146500A8B8DE /* ERChaintoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A436591F60146500A8B8DE /* ERChaintoolTests.m */; };
+		14A436651F60146500A8B8DE /* ERChaintoolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A436641F60146500A8B8DE /* ERChaintoolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14A436561F60146500A8B8DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14A436341F60146500A8B8DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14A4363B1F60146500A8B8DE;
+			remoteInfo = ERChaintool;
+		};
+		14A436611F60146500A8B8DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14A436341F60146500A8B8DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14A4363B1F60146500A8B8DE;
+			remoteInfo = ERChaintool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14A4363C1F60146500A8B8DE /* ERChaintool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERChaintool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A436401F60146500A8B8DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14A436421F60146500A8B8DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14A436431F60146500A8B8DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14A436451F60146500A8B8DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14A436461F60146500A8B8DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14A436491F60146500A8B8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14A4364B1F60146500A8B8DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14A4364E1F60146500A8B8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14A436501F60146500A8B8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A436551F60146500A8B8DE /* ERChaintoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERChaintoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A436591F60146500A8B8DE /* ERChaintoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERChaintoolTests.m; sourceTree = "<group>"; };
+		14A4365B1F60146500A8B8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A436601F60146500A8B8DE /* ERChaintoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERChaintoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A436641F60146500A8B8DE /* ERChaintoolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERChaintoolUITests.m; sourceTree = "<group>"; };
+		14A436661F60146500A8B8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14A436391F60146500A8B8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A436521F60146500A8B8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A4365D1F60146500A8B8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A436331F60146500A8B8DE = {
+			isa = PBXGroup;
+			children = (
+				14A4363E1F60146500A8B8DE /* ERChaintool */,
+				14A436581F60146500A8B8DE /* ERChaintoolTests */,
+				14A436631F60146500A8B8DE /* ERChaintoolUITests */,
+				14A4363D1F60146500A8B8DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14A4363D1F60146500A8B8DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14A4363C1F60146500A8B8DE /* ERChaintool.app */,
+				14A436551F60146500A8B8DE /* ERChaintoolTests.xctest */,
+				14A436601F60146500A8B8DE /* ERChaintoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14A4363E1F60146500A8B8DE /* ERChaintool */ = {
+			isa = PBXGroup;
+			children = (
+				14A436421F60146500A8B8DE /* AppDelegate.h */,
+				14A436431F60146500A8B8DE /* AppDelegate.m */,
+				14A436451F60146500A8B8DE /* ViewController.h */,
+				14A436461F60146500A8B8DE /* ViewController.m */,
+				14A436481F60146500A8B8DE /* Main.storyboard */,
+				14A4364B1F60146500A8B8DE /* Assets.xcassets */,
+				14A4364D1F60146500A8B8DE /* LaunchScreen.storyboard */,
+				14A436501F60146500A8B8DE /* Info.plist */,
+				14A4363F1F60146500A8B8DE /* Supporting Files */,
+			);
+			path = ERChaintool;
+			sourceTree = "<group>";
+		};
+		14A4363F1F60146500A8B8DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14A436401F60146500A8B8DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14A436581F60146500A8B8DE /* ERChaintoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				14A436591F60146500A8B8DE /* ERChaintoolTests.m */,
+				14A4365B1F60146500A8B8DE /* Info.plist */,
+			);
+			path = ERChaintoolTests;
+			sourceTree = "<group>";
+		};
+		14A436631F60146500A8B8DE /* ERChaintoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14A436641F60146500A8B8DE /* ERChaintoolUITests.m */,
+				14A436661F60146500A8B8DE /* Info.plist */,
+			);
+			path = ERChaintoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14A4363B1F60146500A8B8DE /* ERChaintool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A436691F60146500A8B8DE /* Build configuration list for PBXNativeTarget "ERChaintool" */;
+			buildPhases = (
+				14A436381F60146500A8B8DE /* Sources */,
+				14A436391F60146500A8B8DE /* Frameworks */,
+				14A4363A1F60146500A8B8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ERChaintool;
+			productName = ERChaintool;
+			productReference = 14A4363C1F60146500A8B8DE /* ERChaintool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14A436541F60146500A8B8DE /* ERChaintoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A4366C1F60146500A8B8DE /* Build configuration list for PBXNativeTarget "ERChaintoolTests" */;
+			buildPhases = (
+				14A436511F60146500A8B8DE /* Sources */,
+				14A436521F60146500A8B8DE /* Frameworks */,
+				14A436531F60146500A8B8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14A436571F60146500A8B8DE /* PBXTargetDependency */,
+			);
+			name = ERChaintoolTests;
+			productName = ERChaintoolTests;
+			productReference = 14A436551F60146500A8B8DE /* ERChaintoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14A4365F1F60146500A8B8DE /* ERChaintoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A4366F1F60146500A8B8DE /* Build configuration list for PBXNativeTarget "ERChaintoolUITests" */;
+			buildPhases = (
+				14A4365C1F60146500A8B8DE /* Sources */,
+				14A4365D1F60146500A8B8DE /* Frameworks */,
+				14A4365E1F60146500A8B8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14A436621F60146500A8B8DE /* PBXTargetDependency */,
+			);
+			name = ERChaintoolUITests;
+			productName = ERChaintoolUITests;
+			productReference = 14A436601F60146500A8B8DE /* ERChaintoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14A436341F60146500A8B8DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "邢伟杰";
+				TargetAttributes = {
+					14A4363B1F60146500A8B8DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					14A436541F60146500A8B8DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14A4363B1F60146500A8B8DE;
+					};
+					14A4365F1F60146500A8B8DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14A4363B1F60146500A8B8DE;
+					};
+				};
+			};
+			buildConfigurationList = 14A436371F60146500A8B8DE /* Build configuration list for PBXProject "ERChaintool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14A436331F60146500A8B8DE;
+			productRefGroup = 14A4363D1F60146500A8B8DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14A4363B1F60146500A8B8DE /* ERChaintool */,
+				14A436541F60146500A8B8DE /* ERChaintoolTests */,
+				14A4365F1F60146500A8B8DE /* ERChaintoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14A4363A1F60146500A8B8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A4364F1F60146500A8B8DE /* LaunchScreen.storyboard in Resources */,
+				14A4364C1F60146500A8B8DE /* Assets.xcassets in Resources */,
+				14A4364A1F60146500A8B8DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A436531F60146500A8B8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A4365E1F60146500A8B8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A436381F60146500A8B8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A436471F60146500A8B8DE /* ViewController.m in Sources */,
+				14A436441F60146500A8B8DE /* AppDelegate.m in Sources */,
+				14A436411F60146500A8B8DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A436511F60146500A8B8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A4365A1F60146500A8B8DE /* ERChaintoolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A4365C1F60146500A8B8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A436651F60146500A8B8DE /* ERChaintoolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14A436571F60146500A8B8DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14A4363B1F60146500A8B8DE /* ERChaintool */;
+			targetProxy = 14A436561F60146500A8B8DE /* PBXContainerItemProxy */;
+		};
+		14A436621F60146500A8B8DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14A4363B1F60146500A8B8DE /* ERChaintool */;
+			targetProxy = 14A436611F60146500A8B8DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14A436481F60146500A8B8DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A436491F60146500A8B8DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14A4364D1F60146500A8B8DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A4364E1F60146500A8B8DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14A436671F60146500A8B8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14A436681F60146500A8B8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14A4366A1F60146500A8B8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ERChaintool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icu.ERChaintool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14A4366B1F60146500A8B8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ERChaintool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icu.ERChaintool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14A4366D1F60146500A8B8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ERChaintoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icu.ERChaintoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERChaintool.app/ERChaintool";
+			};
+			name = Debug;
+		};
+		14A4366E1F60146500A8B8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ERChaintoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icu.ERChaintoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERChaintool.app/ERChaintool";
+			};
+			name = Release;
+		};
+		14A436701F60146500A8B8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ERChaintoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icu.ERChaintoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ERChaintool;
+			};
+			name = Debug;
+		};
+		14A436711F60146500A8B8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ERChaintoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icu.ERChaintoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ERChaintool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14A436371F60146500A8B8DE /* Build configuration list for PBXProject "ERChaintool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A436671F60146500A8B8DE /* Debug */,
+				14A436681F60146500A8B8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A436691F60146500A8B8DE /* Build configuration list for PBXNativeTarget "ERChaintool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A4366A1F60146500A8B8DE /* Debug */,
+				14A4366B1F60146500A8B8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14A4366C1F60146500A8B8DE /* Build configuration list for PBXNativeTarget "ERChaintoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A4366D1F60146500A8B8DE /* Debug */,
+				14A4366E1F60146500A8B8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14A4366F1F60146500A8B8DE /* Build configuration list for PBXNativeTarget "ERChaintoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A436701F60146500A8B8DE /* Debug */,
+				14A436711F60146500A8B8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14A436341F60146500A8B8DE /* Project object */;
+}
